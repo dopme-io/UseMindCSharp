@@ -33,6 +33,10 @@ MindSetCSharp/
     └── MindSetCSharp.Core.csproj
 ```
 
+## Documentação Técnica
+
+📘 Para informações detalhadas sobre arquitetura, padrões de código, estrutura completa e guia de contribuição, consulte: **[DOCUMENTATION.md](DOCUMENTATION.md)**
+
 ## Como Executar
 
 ### Requisitos
