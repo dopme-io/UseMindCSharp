@@ -1,0 +1,44 @@
+﻿using MindSetCSharp.Core.Produtivo;
+using MindSetCSharp.Core.Bastidores;
+using MindSetCSharp.Core.Objetos;
+using MindSetCSharp.Core.Tipos;
+using MindSetCSharp.Core.Referencias;
+using MindSetCSharp.Core.Encapsulamento;
+using MindSetCSharp.Core.Heranca;
+using MindSetCSharp.Core.Interface;
+using MindSetCSharp.Core.Classes;
+using MindSetCSharp.Core.Enumeracoes;
+using MindSetCSharp.Core.Colecoes;
+using MindSetCSharp.Core.Arquivos;
+using MindSetCSharp.Core.Excecoes;
+using MindSetCSharp.Core.Eventos;
+using MindSetCSharp.Core.Delegates;
+using MindSetCSharp.Core.Revisao;
+using MindSetCSharp.Core.Controles;
+using MindSetCSharp.Core.Graficos;
+using MindSetCSharp.Core.LINQ;
+
+Console.WriteLine("=== MindSet CSharp: Use Mindset com CSharp ===");
+Console.WriteLine("Explorando a base fundamental da programação em C#\n");
+
+ProdutivoModule.Run();
+BastidoresModule.Run();
+ObjetosModule.Run();
+TiposModule.Run();
+ReferenciasModule.Run();
+EncapsulamentoModule.Run();
+HerancaModule.Run();
+InterfaceModule.Run();
+ClassesModule.Run();
+EnumeracoesModule.Run();
+ColecoesModule.Run();
+ArquivosModule.Run();
+ExcecoesModule.Run();
+EventosModule.Run();
+DelegatesModule.Run();
+RevisaoModule.Run();
+ControlesModule.Run();
+GraficosModule.Run();
+LINQModule.Run();
+
+Console.WriteLine("\n=== Fim do programa ===" );
