@@ -1,7 +1,7 @@
 <div align="center">
-  <img width="263" height="182" alt="dopme io" src="https://github.com/dopme-io/dopmeRepo/blob/main/assests/MindSet%20CSharp.png" />
+  <img width="263" height="182" alt="dopme io" src="https://github.com/dopme-io/dopmeRepo/blob/main/assests/Use%20Mindset%20com%20CSharp.png" />
   </br>
-  <img width="663" height="69" src="https://github.com/dopme-io/dopmeRepo/blob/main/assests/Use%20Mindset%20com%20CSharp.png" />
+  <img width="663" height="69" src="https://github.com/dopme-io/dopmeRepo/blob/main/assests/MindSet%20CSharp.png" />
 
   [![.NET](https://github.com/dopme-io/UseMindCSharp/actions/workflows/dotnet.yml/badge.svg)](https://github.com/dopme-io/UseMindCSharp/actions/workflows/dotnet.yml)
   ![Versão](https://img.shields.io/badge/.NET-10.0-blue)
