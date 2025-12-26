@@ -1,9 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\MindSetCSharp.Core\MindSetCSharp.Core.csproj" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\MindSetCSharp.Application\MindSetCSharp.Application.csproj" />
   </ItemGroup>
 
