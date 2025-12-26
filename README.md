@@ -1,12 +1,59 @@
-# MindSet CSharp: Use Mindset com CSharp
+# 🧠 MindSet CSharp: Use Mindset com CSharp
+![Status do build](https://img.shields.io/github/actions/workflow/status/dopme-io/UseMindCSharp/workflow.yml)
+![Licença](https://img.shields.io/github/license/dopme-io/UseMindCSharp)
+![Versão](https://img.shields.io/badge/.NET-10.0-blue)
 
-Este repositório explora a base fundamental da programação em C# através da abordagem Mindset C#. Aqui, a ênfase está em não apenas aprender a sintaxe da linguagem, mas também em adotar uma mentalidade eficaz para o desenvolvimento de software em C#.
+> Repositório educacional focado em fundamentos de programação C# com abordagem Mindset. Explora conceitos essenciais através de uma mentalidade eficaz para o desenvolvimento de software em C#.
 
-## Estrutura do Projeto .NET 10
+---
+
+## 🗂 Índice
+
+- [Sobre](#-sobre)
+- [Tecnologias](#️-tecnologias)
+- [Arquitetura](#-arquitetura)
+- [Instalação](#-instalação)
+- [Uso](#️-uso)
+- [Estrutura dos Módulos](#-estrutura-dos-módulos)
+- [Testes](#-testes)
+- [Contribuição](#-contribuição)
+- [Licença](#-licença)
+- [Contato](#-contato)
+
+---
+
+## 📌 Sobre
+Este projeto faz parte do ecossistema `dopme-io` e tem como objetivo principal explorar a base fundamental da programação em C# através da abordagem Mindset. A ênfase está em não apenas aprender a sintaxe da linguagem, mas também em adotar uma mentalidade eficaz para o desenvolvimento de software.
+
+### O que você aprenderá:
+
+- **Mentalidade Orientada a Objetos**: Como pensar em termos de classes e objetos para criar sistemas modulares e reutilizáveis.
+- **Design de Código Limpo**: Práticas para escrever código claro e sustentável, incluindo princípios como a responsabilidade única e a inversão de dependência.
+- **Estruturas e Algoritmos**: Compreensão de como aplicar estruturas de dados e algoritmos de maneira eficiente e adequada.
+- **Boas Práticas de Programação**: Técnicas e padrões para resolver problemas comuns e evitar armadilhas típicas.
+- **Tratamento de Exceções e Depuração**: Como adotar uma mentalidade de resolução de problemas e tratamento de exceções para garantir a robustez do código.
+- **Eficiência e Performance**: Abordagens para escrever código que não apenas funciona, mas também é eficiente e bem otimizado.
+
+---
+
+## 🛠️ Tecnologias
+
+- C# 13
+- .NET 10 SDK
+- Visual Studio / VS Code
+- [LINQ](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/linq/)
+- [Delegates e Eventos](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/delegates/)
+
+---
+
+## 🧱 Arquitetura
+- Arquitetura modular baseada em bibliotecas de classes.
+- Separação clara de responsabilidades por domínio (Módulos).
+- Aplicação console demonstrativa com acesso a todos os módulos educacionais.
+
 
 ```
-MindSetCSharp/
-├── MindSetCSharp.sln              # Solução principal
+📁 src/
 ├── MindSetCSharp.Console/          # Aplicação console demonstrativa
 │   ├── Program.cs                  # Entry point com todos os módulos
 │   └── MindSetCSharp.Console.csproj
@@ -33,35 +80,52 @@ MindSetCSharp/
     └── MindSetCSharp.Core.csproj
 ```
 
-## Documentação Técnica
+📘 **Documentação Técnica Completa**: [DOCUMENTATION.md](DOCUMENTATION.md)
 
-📘 Para informações detalhadas sobre arquitetura, padrões de código, estrutura completa e guia de contribuição, consulte: **[DOCUMENTATION.md](DOCUMENTATION.md)**
+---
 
-## Como Executar
+## 🚀 Instalação
 
 ### Requisitos
-- .NET 10 SDK
+- .NET 10 SDK instalado ([Download aqui](https://dotnet.microsoft.com/download))
 
-### Build
+### Clonar o repositório
+```bash
+git clone https://github.com/dopme-io/UseMindCSharp.git
+```
+
+### Entrar no diretório
+```bash
+cd UseMindCSharp
+```
+
+### Restaurar dependências
+```bash
+dotnet restore
+```
+
+---
+
+## ▶️ Uso
+
+### Build da solução
 ```bash
 dotnet build
 ```
 
-### Executar
+### Executar aplicação console
 ```bash
 dotnet run --project MindSetCSharp.Console
 ```
 
-### O que você verá:
+### Build em modo Release
+```bash
+dotnet build --configuration Release
+```
 
-- **Mentalidade Orientada a Objetos**: Como pensar em termos de classes e objetos para criar sistemas modulares e reutilizáveis.
-- **Design de Código Limpo**: Práticas para escrever código claro e sustentável, incluindo princípios como a responsabilidade única e a inversão de dependência.
-- **Estruturas e Algoritmos**: Compreensão de como aplicar estruturas de dados e algoritmos de maneira eficiente e adequada.
-- **Boas Práticas de Programação**: Técnicas e padrões para resolver problemas comuns e evitar armadilhas típicas.
-- **Tratamento de Exceções e Depuração**: Como adotar uma mentalidade de resolução de problemas e tratamento de exceções para garantir a robustez do código.
-- **Eficiência e Performance**: Abordagens para escrever código que não apenas funciona, mas também é eficiente e bem otimizado.
+---
 
-## Estrutura dos Módulos
+## 📚 Estrutura dos Módulos
 
 ### **/Produtivo**:
 Dicas e técnicas para otimizar a produtividade no desenvolvimento com C#. Inclui práticas recomendadas para escrever código mais eficiente e como melhorar seu fluxo de trabalho de programação.
@@ -122,5 +186,46 @@ Utilização de LINQ (Language Integrated Query) para consultar e manipular dado
 
 ---
 
-Este repositório é ideal para desenvolvedores que desejam não apenas aprender C#, mas também adotar uma abordagem mental e prática para resolver problemas de programação e construir soluções eficazes e escaláveis.
+## ✅ Testes
+
+### Rodar todos os testes
+```bash
+dotnet test
+```
+
+### Teste com coverage
+```bash
+dotnet test /p:CollectCoverage=true
+```
+
+---
+
+## 🤝 Contribuição
+Este projeto é mantido pela equipe interna da organização `dopme-io`.
+
+Se você é membro da organização:
+
+- Siga o [guia de contribuição](./DOCUMENTATION.md)
+- Mantenha o padrão de código e documentação.
+
+Se este for um repositório open source, contribuições externas são bem-vindas mediante revisão prévia.
+
+---
+
+## 📄 Licença
+Este projeto está licenciado sob a [MIT License](./LICENSE).
+
+---
+
+## 📬 Contato
+Caso tenha dúvidas ou sugestões, entre em contato:
+
+- **Email**: [daniloopinheiro@dopme.io](mailto:daniloopinheiro@dopme.io)
+- **LinkedIn**: [dopme-io](https://www.linkedin.com/company/dopme-io/)
+- **YouTube**: [dopme](https://www.youtube.com/@dopme-io)
+- **Contato**: [Whatsapp Business](https://wa.me/5511964952665)
+
+---
+
+*Este repositório é ideal para desenvolvedores que desejam não apenas aprender C#, mas também adotar uma abordagem mental e prática para resolver problemas de programação e construir soluções eficazes e escaláveis.*
 
