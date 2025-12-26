@@ -37,8 +37,8 @@ while (true)
 		input.Equals("sair", StringComparison.OrdinalIgnoreCase) ||
 		input.Equals("q", StringComparison.OrdinalIgnoreCase))
 	{
-		Console.WriteLine("\nSaindo...\n");
-		return;
+		Console.WriteLine("\nSaindo...");
+		Environment.Exit(0);
 	}
 
 	if (input.Equals("a", StringComparison.OrdinalIgnoreCase) || input == "*")
