@@ -6,7 +6,7 @@
   [![.NET](https://github.com/dopme-io/UseMindCSharp/actions/workflows/dotnet.yml/badge.svg)](https://github.com/dopme-io/UseMindCSharp/actions/workflows/dotnet.yml)
   ![Versão](https://img.shields.io/badge/.NET-10.0-blue)
   
-  > Repositório educacional focado em fundamentos de programação C# com abordagem Mindset. Explora conceitos essenciais através de uma mentalidade eficaz para o desenvolvimento de software em C#.
+  Repositório educacional focado em fundamentos de programação C# com abordagem Mindset. Explora conceitos essenciais através de uma mentalidade eficaz para o desenvolvimento de software em C#.
 </div>
 
 
