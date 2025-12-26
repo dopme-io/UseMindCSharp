@@ -38,7 +38,7 @@ while (true)
 		input.Equals("q", StringComparison.OrdinalIgnoreCase))
 	{
 		Console.WriteLine("\nSaindo...");
-		Environment.Exit(0);
+		break;
 	}
 
 	if (input.Equals("a", StringComparison.OrdinalIgnoreCase) || input == "*")
