@@ -69,5 +69,3 @@ while (true)
 
 	Console.WriteLine($"Opção inválida: {input}\n");
 }
-
-Console.WriteLine("\n=== Fim do programa ===");
