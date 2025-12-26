@@ -1,6 +1,10 @@
-# 🧠 MindSet CSharp: Use Mindset com CSharp
-![Status do build](https://img.shields.io/github/actions/workflow/status/dopme-io/UseMindCSharp/workflow.yml)
-![Licença](https://img.shields.io/github/license/dopme-io/UseMindCSharp)
+<p align="center">
+  <img width="263" height="182" alt="dopme io" src="https://github.com/dopme-io/.github/blob/main/profile/MindSet%20CSharp.png" />
+</br>
+  <img width="663" height="69" src="https://github.com/dopme-io/.github/blob/main/profile/Use%20Mindset%20com%20CSharp.png" />
+</p>
+
+[![.NET](https://github.com/dopme-io/UseMindCSharp/actions/workflows/dotnet.yml/badge.svg)](https://github.com/dopme-io/UseMindCSharp/actions/workflows/dotnet.yml)
 ![Versão](https://img.shields.io/badge/.NET-10.0-blue)
 
 > Repositório educacional focado em fundamentos de programação C# com abordagem Mindset. Explora conceitos essenciais através de uma mentalidade eficaz para o desenvolvimento de software em C#.
