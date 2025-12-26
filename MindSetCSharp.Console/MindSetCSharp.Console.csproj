@@ -3,6 +3,9 @@
   <ItemGroup>
     <ProjectReference Include="..\MindSetCSharp.Core\MindSetCSharp.Core.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MindSetCSharp.Application\MindSetCSharp.Application.csproj" />
+  </ItemGroup>
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>

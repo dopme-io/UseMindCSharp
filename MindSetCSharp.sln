@@ -6,6 +6,8 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindSetCSharp.Console", "MindSetCSharp.Console\MindSetCSharp.Console.csproj", "{D4149EC4-B6AD-42C8-9149-CBC30C219837}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindSetCSharp.Core", "MindSetCSharp.Core\MindSetCSharp.Core.csproj", "{716E1C78-F80B-42D6-BEF5-5C212F4F34F9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindSetCSharp.Application", "MindSetCSharp.Application\MindSetCSharp.Application.csproj", "{8A2E3F5C-1D9E-4B7A-9C3E-2F4B6E8A1D9C}"
+EndProject
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,18 @@ Global
 		{716E1C78-F80B-42D6-BEF5-5C212F4F34F9}.Release|x64.Build.0 = Release|Any CPU
 		{716E1C78-F80B-42D6-BEF5-5C212F4F34F9}.Release|x86.ActiveCfg = Release|Any CPU
 		{716E1C78-F80B-42D6-BEF5-5C212F4F34F9}.Release|x86.Build.0 = Release|Any CPU
+		{8A2E3F5C-1D9E-4B7A-9C3E-2F4B6E8A1D9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A2E3F5C-1D9E-4B7A-9C3E-2F4B6E8A1D9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A2E3F5C-1D9E-4B7A-9C3E-2F4B6E8A1D9C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8A2E3F5C-1D9E-4B7A-9C3E-2F4B6E8A1D9C}.Debug|x64.Build.0 = Debug|Any CPU
+		{8A2E3F5C-1D9E-4B7A-9C3E-2F4B6E8A1D9C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8A2E3F5C-1D9E-4B7A-9C3E-2F4B6E8A1D9C}.Debug|x86.Build.0 = Debug|Any CPU
+		{8A2E3F5C-1D9E-4B7A-9C3E-2F4B6E8A1D9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A2E3F5C-1D9E-4B7A-9C3E-2F4B6E8A1D9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A2E3F5C-1D9E-4B7A-9C3E-2F4B6E8A1D9C}.Release|x64.ActiveCfg = Release|Any CPU
+		{8A2E3F5C-1D9E-4B7A-9C3E-2F4B6E8A1D9C}.Release|x64.Build.0 = Release|Any CPU
+		{8A2E3F5C-1D9E-4B7A-9C3E-2F4B6E8A1D9C}.Release|x86.ActiveCfg = Release|Any CPU
+		{8A2E3F5C-1D9E-4B7A-9C3E-2F4B6E8A1D9C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

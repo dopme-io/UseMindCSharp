@@ -15,7 +15,7 @@
 
 # Mono auto generated files
 mono_crash.*
-
+MindSetCSharp.Application
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -377,6 +377,7 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # VS Code files for those working on multiple tools
+.vscode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
